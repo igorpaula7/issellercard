@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    --amarelois:#ffbc34;
+}
+
+#tudo{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.topo{
+    width: 100%;
+    height: 30%;;
+    background-image: url(images/fundoatt.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.baixo{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logotopo{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagemlogotopo{
+    width: 45px;
+    height: 45px;
+}
+
+.imagemcolaboradortopo{
+    width: 220px;
+    height: 220px;
+    padding-top: 10px;
+}
+
+.nomeecargo{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.cargo{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+}
+
+.bolaobonito{
+    width: 300px;
+    height: 50px;
+    background-color: var(--amarelois);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.iconebolao{
+    height: 40px;
+}
+
+.rodape{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
